@@ -18,12 +18,12 @@ class TestTeam(unittest.TestCase):
     def test_team_has_coach(self):
         self.assertEqual("Irv Blitzer", self.team.coach)
 
-    @unittest.skip("delete this line to run the test")
+    #@unittest.skip("delete this line to run the test")
     def test_coach_can_be_changed(self):
         self.team.coach = "John Candy"
         self.assertEqual("John Candy", self.team.coach)
 
-    @unittest.skip("delete this line to run the test")
+    #@unittest.skip("delete this line to run the test")
     def test_can_add_new_player_to_team(self):
         new_player = "Jeff"
         self.team.add_player(new_player)
